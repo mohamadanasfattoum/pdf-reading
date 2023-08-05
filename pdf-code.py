@@ -3,7 +3,7 @@
 import PyPDF2
 
 # creating a pdf file object
-pdfFileObj = open('modale.pdf', 'rb')
+pdfFileObj = open('modals.pdf', 'rb')
 
 # creating a pdf reader object
 pdfReader = PyPDF2.PdfReader(pdfFileObj)
